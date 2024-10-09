@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #062764;
+    color: #fff;
+}
+
+header h1,
+header a,
+footer p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.movie-info h2,
+.movie-info h3 {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #062764;
+}
+
+main {
+    background-color: #dfe6e9;
+}
+
+header .container,
+main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto
+}
+
+.container ul li {
+    display: inline;
+    margin-right: 24px;
+}
+
+.container ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+main section .container {
+    padding: 32px 0;
+    border-bottom: 4px solid #062764;
+}
+
+.movie-info {
+
+    margin-left: 32px;
+}
+
+.movie-info h2 {
+    font-size: 28px;
+}
+
+.movie-info p {
+    margin: 16px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.movie-img img {
+    width: 500px;
+}
+
+#contact {
+    padding-top: 32px;
+    background-color: #dfe6e9;
+}
+
+#contact .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#contact .container h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #062764;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 32px;
+
+}
+
+.form_user {
+    margin-bottom: 16px;
+}
+
+.form_user h3,
+.socials h3 {
+    padding-bottom: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #062764;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px;
+    width: 380px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+    outline-color: #062764;
+}
+
+form button {
+    background-color: #062764;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+form button:hover {
+    background-color: #4666a2;
+    transition: 0.8s;
+}
+
+
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.socials img {
+    height: 36px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #062764;
+    padding: 16px 0;
+    color: #fff;
+}
